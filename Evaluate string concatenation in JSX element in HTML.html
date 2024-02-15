@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+        <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+        <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    </head>
+    <body>
+        <div id="root"></div>
+        <div id="roott"></div>
+        <script type="text/babel">
+            
+            var a="rakesh";
+            var b="rayam";
+            var f = <h1>{a.concat(b)}</h1>
+            ReactDOM.render(f,document.getElementById("root"));
+
+
+            var k = <h1>{"divya"+"rayam"}</h1>
+            ReactDOM.render(k,document.getElementById("roott"));
+
+        </script>
+    </body>
+</html>
